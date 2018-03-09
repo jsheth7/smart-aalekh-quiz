@@ -35,7 +35,7 @@ class TrendsController extends Controller
                     ON selections.question_id = questions.id
                     
                     WHERE selections.question_id = ?
-                    GROUP BY selections.question_id, answer_id
+                    GROUP BY selections.question_id, answers.title
                     ORDER BY count(answer_id) ASC";
 
         $answers = DB::select($query, [$question->id]);
