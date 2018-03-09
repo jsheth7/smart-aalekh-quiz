@@ -113,13 +113,11 @@ Set it as a Heroku environment variable:
     
 ### Configure database access
 
-Run
-
-    heroku config | grep DATABASE_URL | php heroku-config.php
-    
-Copy and past the outputted commands into your Terminal
+It has been configured to use the DATABASE_URL environment variable, which has already been set.
 
 ### Deploy code to Heroku
+
+    git push heroku master
 
 ### Run migrations on heroku
     heroku run bash
