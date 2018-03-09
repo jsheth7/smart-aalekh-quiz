@@ -113,6 +113,10 @@ Set it as a Heroku environment variable:
     
 ### Configure database access
 
+Set the database type to Postgres
+
+    heroku config:set DB_CONNECTION=pgsql
+    
 It has been configured to use the DATABASE_URL environment variable, which has already been set.
 
 ### Deploy code to Heroku
