@@ -30,9 +30,9 @@ class TrendsController extends Controller
         $query = "SELECT  answers.title AS answer, count(answer_id) AS num
                     FROM selections
                     JOIN answers
-                    ON selections.answer_id = answers.`id`
+                    ON selections.answer_id = answers.id
                     JOIN questions
-                    ON selections.question_id = questions.`id`
+                    ON selections.question_id = questions.id
                     
                     WHERE selections.question_id = ?
                     GROUP BY selections.question_id, answer_id
