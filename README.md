@@ -8,6 +8,7 @@ You can see a demo of it here:
 
 https://smart-aalekh.herokuapp.com/
 
+## Why is it called Smart Aalekh ?
 
 To take the quiz, you must create an account. However, anyone can see answer trends.
 
@@ -145,3 +146,4 @@ Then set it back!
 * Get logging working on Heroku (heroku logs)
 * Improve theme / color scheme / look-n-feel
 * Add automated tests (unit and functional)
+* Allow more than one Quiz to be created, and used
