@@ -8,9 +8,15 @@ You can see a demo of it here:
 
 https://smart-aalekh.herokuapp.com/
 
+To take the quiz, you must create an account. However, anyone can see answer trends.
+
 ## Why is it called Smart Aalekh ?
 
-To take the quiz, you must create an account. However, anyone can see answer trends.
+The word "alekh", or "aalekh" has eleven different meanings in Hindi, including:
+document, graph, script, dictation, record, sketch, treatise, survey, plan, drawing, write-up
+
+Amazingly, these words describe almost all the parts of the process of learning Laravel and creating this application!
+Smart Aalekh is a play on Aalekh and "smart alec".
 
 ## Technical overview
 It is written using the Laravel 5.6 framework for PHP, and relies on a database such as MySQL or Postgres.
