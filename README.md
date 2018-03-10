@@ -6,6 +6,9 @@ After your friends take the quiz, you can see a visual representation of their a
 
 You can see a demo of it here: 
 
+https://smart-aalekh.herokuapp.com/
+
+
 To take the quiz, you must create an account. However, anyone can see answer trends.
 
 ## Technical overview
@@ -126,3 +129,19 @@ It has been configured to use the DATABASE_URL environment variable, which has a
 ### Run migrations on heroku
     heroku run bash
     $ php artisan migrate
+    
+### Troubleshooting
+
+Set Heroku debug to on to see the problem (if the logs don't show the right info):
+
+    heroku config:set APP_DEBUG=true
+    
+Then set it back!
+
+    heroku config:set APP_DEBUG=false
+    
+## TODO
+
+* Get logging working on Heroku (heroku logs)
+* Improve theme / color scheme / look-n-feel
+* Add automated tests (unit and functional)
