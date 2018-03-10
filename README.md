@@ -129,6 +129,10 @@ Set the database type to Postgres
     
 It has been configured to use the DATABASE_URL environment variable, which has already been set.
 
+Note: you can also run the following command and copy and paste each item into your Terminal to override the DATABASE_URL:
+
+    heroku config | grep DATABASE_URL | php heroku-config.php
+    
 ### Deploy code to Heroku
 
     git push heroku master
@@ -150,6 +154,7 @@ Then set it back!
 ## TODO
 
 * Get logging working on Heroku (heroku logs)
+* See if there is a more appropriate setting for allowed headers in TrustProxies.php (currently set to Request::HEADER_X_FORWARDED_AWS_ELB)
 * Improve theme / color scheme / look-n-feel
 * Add automated tests (unit and functional)
 * Allow more than one Quiz to be created, and used
