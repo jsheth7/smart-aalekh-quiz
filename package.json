@@ -12,7 +12,7 @@
     "devDependencies": {
         "@vue/devtools": "^1.0.2",
         "axios": "^0.18",
-        "bootstrap": "^4.0.0",
+        "bootstrap": "^4.3.1",
         "callback-loader": "^0.2.4",
         "cross-env": "^5.1",
         "gulp": "^3.9.1",
